@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bowlby+One+SC&display=swap');
+
+*,
+*::after,
+*::before{
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:active,
+:hover,
+:focus{
+    outline: 0 !important;
+    outline-offset: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: "IBM Plex Sans", serif;
+}
+
+h1{
+    font-family: "Bowlby One SC", serif;
+    word-spacing: 5px;
+    line-height: 5rem;
+    font-size: 4rem;
+    color: rgba(0, 0, 0, 1);
+}
+
+h2{
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+p{
+    font-size: 1rem;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.main-btn{
+    width: 220px;
+    text-align: center;
+    font-size: 1rem;
+    padding: 20px 50px;
+    border-radius: 50px;
+    background-color: rgba(0, 0, 0, 1);
+    color: white;
+    display: inline-block;
+}
+
+/* 
+==================================================
+     top-header design 
+================================================== 
+*/
+.top-header{
+    padding: 0.3rem 0;
+    background-color: black;
+}
+
+.top-header p{
+    color: rgba(255, 255, 255, 0.89);
+    text-align: center;
+    font-weight: 300;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.top-header a{
+    color: white;
+    font-weight: 400;
+    text-decoration: underline 1px white;
+}
+
+.fa-xmark{
+    color: white;
+    margin-left: 11.5rem;
+}
+
+/* 
+==================================================
+     header design 
+================================================== 
+*/
+
+.navbar{
+    width: 100%;
+    padding: 10px 0;
+    align-items: center;
+}
+
+.logo{
+    font-family: "Bowlby One SC", serif;
+    line-height: 5rem;
+    font-size: 3rem;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 1);
+}
+
+.navbar-nav{
+    gap: 0.5rem;
+}
+
+.nav-item{
+    text-transform: capitalize;
+    color: black;
+    font-weight: 500;
+}
+
+.dropdown-menu{
+    border: none;
+}
+
+.dropdown:hover>.dropdown-menu {
+    display: block;
+}
+
+.dropdown>.dropdown-toggle:active {
+    pointer-events: none;
+}
+
+.Search{
+    padding: 15px 40px;
+    width: 600px;
+    border-radius: 30px;
+    border: none;
+    background-color: #F2F0F1;
+    margin-left: -40px;
+    margin-right: 20px;
+}
+
+.fa-magnifying-glass{
+    position: relative;
+}
+
+.fa-cart-shopping{
+    cursor: pointer;
+    margin-right: 1rem;
+}
+
+.fa-user{
+    border: 2px solid black;
+    padding: 3px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+
+/* 
+==================================================
+     section-01 hero section design 
+================================================== 
+*/
+
+.hero-section{
+    width: 100%;
+    padding-top: 40px;
+    background-color: #F2F0F1;
+}
+
+.hero-blok-01{
+    margin-top: 30px;
+}
+
+.counter1{
+    border-right: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.counter2{
+    text-align: center;
+    border-right: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.counter3{
+    text-align: center;
+}
+
+
+
+.main-img{
+    width: 100%;
+}
+
+.main-img img{
+    width: 100%;
+}
+
+.ourbrands{
+    padding: 50px 0;
+    background-color: black;
+}
